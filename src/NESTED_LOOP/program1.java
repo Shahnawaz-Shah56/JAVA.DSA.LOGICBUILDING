@@ -1,6 +1,6 @@
 package NESTED_LOOP;
 
-public class program0 {
+public class program1 {
     public static void main(String[] args) {
         int n = 5;
         for (int i = 0; i <= n ; i++) {
@@ -16,5 +16,4 @@ public class program0 {
 
         }
     }
-
 }
