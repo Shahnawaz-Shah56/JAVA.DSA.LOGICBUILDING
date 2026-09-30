@@ -1,19 +1,21 @@
 package NESTED_LOOP;
 
-public class program1 {
+public class program2 {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 4;
         for (int i = 0; i <= n ; i++) {
 
 //            System.out.println("\n");
 
-            for(int j = 0 ; j <= i ; j++){
+            for(int j = 0 ; j <= 4 - i ; j++){
                 System.out.print("* ");
+
             }
             System.out.print("\n");
+
 //            System.out.print("\n");
 
-  
+
         }
     }
 }

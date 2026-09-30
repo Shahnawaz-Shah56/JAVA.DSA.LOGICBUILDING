@@ -1,0 +1,53 @@
+TOPIC ARRAYS:
+
+how arr is saved in the memeory
+
+stacK stores local variable , ref, methods calls    size fixed
+
+heap stores arr, obj  bigger size
+
+
+arr ref gets saved in the stact and main obj in the heap
+
+
+
+Index in real doesnt exist
+
+then how value is accessed
+
+by this formula   eg. arr[4]
+
+formula =  BASE ADDRESS + (datasize * idx value)
+
+
+INTERVIEW QUESTION : if we try to access the value out of the bound what will happen
+
+not compile time err but   err after execution err comes  "A
+RR INDX OUT OF BOUND"
+
+
+package NESTED_LOOP;
+
+public class program3 {
+    public static void main(String[] args) {
+        int n = 4;
+        for (int i = 0; i <= n ; i++) {
+
+//            System.out.println("\n");
+
+            for(int j = 0 ; j <= i ; j++){
+                for (int k = n; k >= 4-i ; k++) {
+                }
+                System.out.print(" ");
+                System.out.print("* ");
+
+            }
+            System.out.print("\n");
+
+//            System.out.print("\n");
+
+
+        }
+    }
+
+}
