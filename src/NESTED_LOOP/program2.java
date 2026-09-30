@@ -13,7 +13,6 @@ public class program2 {
             }
             System.out.print("\n");
 
-//            System.out.print("\n");
 
 
         }
