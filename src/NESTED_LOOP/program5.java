@@ -15,10 +15,11 @@ public class program5 {
                 }
 
 
-            System.out.println();
+                System.out.println();
+            }
+
+
         }
-
-
     }
 }
 
