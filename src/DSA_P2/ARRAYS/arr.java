@@ -11,7 +11,7 @@ public class arr {
         arr[3]= 70;
         arr[4]=90;
 
-
+        System.out.println(arr[7]);
         
 
     }
