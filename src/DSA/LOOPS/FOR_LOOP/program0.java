@@ -1,4 +1,4 @@
-package FOR_LOOP;
+package DSA.LOOPS.FOR_LOOP;
 
 
 

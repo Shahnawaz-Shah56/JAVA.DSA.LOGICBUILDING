@@ -1,4 +1,4 @@
-package FOR_LOOP;
+package DSA.LOOPS.FOR_LOOP;
 //Question 2 "N TO 1 PRINTING "
 
 
