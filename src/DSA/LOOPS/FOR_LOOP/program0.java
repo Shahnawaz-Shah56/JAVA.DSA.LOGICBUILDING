@@ -11,7 +11,7 @@ public class program0 {
         int n = 10;
 
         for (int i = 0; i <= n;i++){
-            System.out.println(i);
+            System.out.print(i);
 
         }
     }

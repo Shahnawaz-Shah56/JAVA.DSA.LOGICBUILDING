@@ -26,7 +26,7 @@ not compile time err but   err after execution err comes  "A
 RR INDX OUT OF BOUND"
 
 
-package NESTED_LOOP;
+package DSA.NESTED_LOOP;
 
 public class program3 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package NESTED_LOOP;
+package DSA.NESTED_LOOP;
 
 public class program3 {
     public static void main(String[] args) {

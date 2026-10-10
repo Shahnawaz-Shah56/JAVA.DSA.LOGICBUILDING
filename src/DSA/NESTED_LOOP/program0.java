@@ -1,20 +1,20 @@
-package NESTED_LOOP;
+package DSA.NESTED_LOOP;
 
-public class program2 {
+public class program0 {
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         for (int i = 0; i <= n ; i++) {
 
 //            System.out.println("\n");
 
-            for(int j = 0 ; j <= 4 - i ; j++){
+            for(int j = 0 ; j <= n; j++){
                 System.out.print("* ");
-
             }
             System.out.print("\n");
-
+//            System.out.print("\n");
 
 
         }
     }
+
 }

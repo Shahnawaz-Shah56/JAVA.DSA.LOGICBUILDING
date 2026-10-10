@@ -1,6 +1,6 @@
 package DSA.LOOPS.FOR_LOOP;
 
-public class program7 {
+public class program10 {
     public static void main(String[] args) {
         int n = 5;
         char alpha =65;
