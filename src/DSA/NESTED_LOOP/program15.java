@@ -5,14 +5,14 @@ public class program15 {
         int n = 6;
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= n; j++) {
-                System.out.print("*  ");
+                System.out.print("* ");
                 if(i != 0 && i != n){
-                    for (int k = 0; k < 6; k++) {
+                    for (int k = 0; k < 5; k++) {
                         System.out.print("  ");
 
                     }
                     j = n;
-                    System.out.print("   *");
+                    System.out.print("*");
 
                 }
 
