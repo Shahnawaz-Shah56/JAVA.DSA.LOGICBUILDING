@@ -10,6 +10,7 @@ public class program19 {
 
             for (int j = 0; j < i; j++) {
                 int val = i+j;
+
                 if(val % 2 !=0){
                     System.out.print(num);
                 }else {

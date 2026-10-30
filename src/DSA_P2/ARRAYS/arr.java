@@ -1,17 +1,22 @@
 package DSA_P2.ARRAYS;
 
+import java.util.Scanner;
+
 public class arr {
+
     public static void main(String[] args) {
 //        int ageArr[]= {20, 20,18,82,11};
+        Scanner sc = new Scanner(System.in);
 
         int arr[] = new int[5];
-        arr[0]=10;
-        arr[1]= 20;
-        arr[2]=30;
-        arr[3]= 70;
-        arr[4]=90;
 
-        System.out.println(arr[7]);
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = sc.nextInt();
+            System.out.println(arr[i]*2);
+        }
+
+
+
         
 
     }

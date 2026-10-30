@@ -1,18 +1,29 @@
 package DSA_P2.ARRAYS;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class program4 {
     public static void main(String[] args) {
-        int [] arr = {10,31,29,2,40,39};
-
+        Scanner sc = new Scanner(System.in);
+        int sum = 0;
+        int c = 0;
+        System.out.print("Enter the arr elements :"+" ");
+        int n = sc.nextInt();
+        int []arr = new int[n];
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print("Enter the element vals :"+ " ");
 
-
-
+            arr[i] = sc.nextInt();
+            System.out.print(arr[i]);
+             c = arr[i];
+             sum = sum + c;
         }
+        System.out.println( "element valuse sum is :"+" "+sum);
+
+
+
 
 
 

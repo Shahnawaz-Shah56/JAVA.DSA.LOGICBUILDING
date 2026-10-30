@@ -1,0 +1,4 @@
+different ways to declare arr
+
+1. int[] x = {1,2,3}
+2   int[] x = new int[2];

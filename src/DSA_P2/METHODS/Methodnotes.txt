@@ -1,0 +1,5 @@
+in java we can create function anywhere
+
+what is return type
+
+It gives the function its val without the return type functions doesn't have its own val
