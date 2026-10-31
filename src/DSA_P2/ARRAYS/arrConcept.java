@@ -13,6 +13,7 @@ public class arrConcept {
     }
     /* why we can change the val of x arr using the y arr in change function actually we aren't create the new arr we are just
     accessing the arr address by both x and y and we can make the change by any var whether its x or y
+    and in java we call this as pass by val that we are just passing the value of the arr box not the actual array
      */
 
 }
