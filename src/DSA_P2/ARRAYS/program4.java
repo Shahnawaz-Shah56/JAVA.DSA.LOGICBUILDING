@@ -7,7 +7,7 @@ public class program4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int sum = 0;
-        int c = 0;
+
         System.out.print("Enter the arr elements :"+" ");
         int n = sc.nextInt();
         int []arr = new int[n];
@@ -17,8 +17,7 @@ public class program4 {
 
             arr[i] = sc.nextInt();
             System.out.print(arr[i]);
-             c = arr[i];
-             sum = sum + c;
+             sum += arr[i];
         }
         System.out.println( "element valuse sum is :"+" "+sum);
 
