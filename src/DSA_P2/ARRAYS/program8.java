@@ -5,7 +5,7 @@ public class program8 {
         int target = 4;
         boolean found = false;
 
-        int arr[] = {3,2,6,1,8};
+        int arr[] = {2,2,6,1,8};
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = i+1; j < arr.length; j++) {
@@ -14,8 +14,6 @@ public class program8 {
                     found = true;
                     System.out.println("Elements which match the sum of the target are:" +
                             " "+arr[i]+" and "+ arr[j]);
-
-
 
                     break;
                 }
