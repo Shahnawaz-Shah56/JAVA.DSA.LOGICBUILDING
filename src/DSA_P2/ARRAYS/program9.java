@@ -7,6 +7,10 @@ public class program9 {
         System.out.println();
     while (a < b){
 
+        /* Two pointer techniques where i use the two points or two vars to solve any problem
+
+         */
+
         int c = arr[a];
         arr[a] = arr[b];
         arr[b] = c;
@@ -14,10 +18,13 @@ public class program9 {
         b--;
 
 
+
+
     }
         for(int ele : arr){
             System.out.print(ele + " ");
         }
     }
+
 
 }
