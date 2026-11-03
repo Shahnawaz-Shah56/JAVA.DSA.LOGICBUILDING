@@ -7,6 +7,10 @@ public class forEach {
         for(int ele : arr){
             System.out.println(ele);
         }
+        /*
+        This is just a copy of the array we can't make changes in the array
+         using the for each loop
+         */
     }
 
 }
