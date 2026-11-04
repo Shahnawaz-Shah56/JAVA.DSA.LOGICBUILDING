@@ -14,7 +14,6 @@ public class program10 {
             arr[b] = c;
             a++;
             b--;
-
         }
         for(int ele : arr){
             System.out.print(ele + " ");
