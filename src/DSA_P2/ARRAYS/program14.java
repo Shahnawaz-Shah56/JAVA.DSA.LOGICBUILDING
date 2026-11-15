@@ -2,9 +2,9 @@ package DSA_P2.ARRAYS;
 
 public class program14 {
     public static void main(String[] args) {
-        int arr[]= {0,0,0,1,0,0,1,0,0,1,0,1,1,0};
+        int arr[]= {0,0,0,1,0,0,1,0,0,1,0,1,1,0,1,0,1,1,1,0,0,1,0};
 
-        int a = arr.length-14, b = arr.length-1;
+        int a = 0, b = arr.length-1;
 
 
         while(a < b){
