@@ -1,0 +1,9 @@
+what does arraylist mean : it means the dynamic array
+
+array has one problem and one benefit
+problem: fixed size
+benefit we can access the any element quickly
+
+to solve the problem we have the arraylist
+
+dynamic array means growing array we can add the more elements any time
