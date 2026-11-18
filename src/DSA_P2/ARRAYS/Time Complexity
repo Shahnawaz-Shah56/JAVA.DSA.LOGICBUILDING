@@ -1,0 +1,42 @@
+What does time complexity mean
+
+It means if we have two devices with same feature like ram processor etc and if we run the one same code on the both.
+Which laptops code will run faster.
+
+To make the code faster we have to optimize the code in a manner or way so that it takes less time to execute
+
+
+Things to keep in mind
+
+No. of operations or iterations in our code which can make code slower
+
+
+So I am giving here an example of like how the time complexity works
+I'm giving here two approaches of one area question that's finding the missing element in the array
+
+So approach one that if we have to find the duplicate in array what we will do we will use nested loop and we will compare the
+One value with rest of Array values and if we find the duplicate we will break the loop otherwise we will then move to
+ next value and then we will compare that to rest of the values so it will take lot of iteration like this approach is
+  like of finding the 2 sum in the array
+
+  So the next approach which is second approach in this approach we will like optimise the code and we will only iterate
+   the array once and another thing is that what we will do in this array we will just make another array that will be
+    cheque array we will make it as B where the values default values will be false and what we will do now we will iterate
+     our number array and then what we will do when we will Iterate the first value we will cheque if the cheque array has
+      already If we have like a iterated this value already so if we didn't iterated this value then we will mark true
+       the cheque array but we will mark that index we will mark through that index of the cheque array which is the value
+       of our number array if like we will do this until we will find the Find the duplicate element how we will find that
+        when we will like reach the duplicate element when we will cheque there when we will cheque there if the index
+         the cheque array is already marked row on this so there will be true yes we have marked that already because we
+         have already faced we have already iterated over the same value in the number array so what we will do then we
+         will do that that means this is the so this is the impose and this is the duplicate number
+
+
+So in these two approaches what's the main difference so here is also one important point that the first code is having
+ less having less code but it's taking much operations to solve the problem while as the second approach is having more
+ code because it is also having 2 arrays while as our first approach was having only 1 array and directly looping over at
+  that but in the 2nd array we are having the 2 arrays in the 2nd approach so that what what does that mean that means we
+   don't it doesn't matter whether the code line is more or less it doesn't matter matters on it it only matters whether
+    how we are like approaching the problem
+
+    Now we are going to see the approach third
